@@ -29,3 +29,9 @@ Here are some ideas to get you started:
 <a href="https://github.com/runope">
   <img align="center" width="49%" src="./activity.svg" />
 </a>
+<a href="https://github.com/runope">
+  <img align="center" width="49%" src="./wakatime.svg" />
+</a>
+<a href="https://github.com/runope">
+  <img align="center" width="99%" src="./code.svg" />
+</a>

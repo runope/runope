@@ -15,10 +15,10 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 <a href="https://github.com/runope">
-  <img align="center" width="49%" src="./iso-calender.svg" />
+  <img align="center" width="49%" src="./github-metrics.svg" />
 </a>
 <a href="https://github.com/runope">
-  <img align="center" width="49%" src="./github-metrics.svg" />
+  <img align="center" width="49%" src="./iso-calender.svg" />
 </a>
 <a href="https://github.com/runope">
   <img align="center" width="49%" src="./metrics.plugin.notable.svg" />

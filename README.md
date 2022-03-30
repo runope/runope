@@ -15,4 +15,4 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 ![](https://github-readme-stats.vercel.app/api?username=runope)
-<img align="center" src="/github-metrics.svg" alt="Metrics" width="400">
+<img src="/github-metrics.svg" alt="Metrics" width="100%">

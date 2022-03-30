@@ -33,6 +33,9 @@ Here are some ideas to get you started:
   <img align="center" width="49%" src="./wakatime.svg" />
 </a>
 <a href="https://github.com/runope">
+  <img align="center" width="99%" src="./reward.svg" />
+</a>
+<a href="https://github.com/runope">
   <img align="center" width="99%" src="./code.svg" />
 </a>
 

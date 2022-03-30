@@ -14,5 +14,18 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-![](https://github-readme-stats.vercel.app/api?username=runope)
-<img src="/github-metrics.svg" alt="Metrics" width="100%">
+<a href="https://github.com/AurevoirXavier">
+  <img align="center" width="49%" src="./iso-calender.svg" />
+</a>
+<a href="https://github.com/AurevoirXavier">
+  <img align="center" width="49%" src="./github-metrics.svg" />
+</a>
+<a href="https://github.com/AurevoirXavier">
+  <img align="center" width="49%" src="./metrics.plugin.notable.svg" />
+</a>
+<a href="https://github.com/AurevoirXavier">
+  <img align="center" width="49%" src="./languages.svg" />
+</a>
+<a href="https://github.com/AurevoirXavier">
+  <img align="center" width="49%" src="./activity.svg" />
+</a>

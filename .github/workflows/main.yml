@@ -143,6 +143,7 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
+          filename: reward.svg
           # Your GitHub token
           # The following scopes are required:
           #  - public_access (default scope)
@@ -151,7 +152,6 @@ jobs:
           #  - read:user (for user related data)
           #  - repo      (optional, if you want to include private repositories)
           token: ${{ secrets.METRICS_TOKEN }}
-          filename: reward.svg
           # Options
           user: runope
           template: classic

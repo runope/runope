@@ -1,4 +1,4 @@
-<! -- ### Hi there 👋 -->
+<!-- ### Hi there 👋 -->
 
 <!--
 **runope/runope** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -15,3 +15,4 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 ![](https://github-readme-stats.vercel.app/api?username=runope)
+<img align="center" src="/github-metrics.svg" alt="Metrics" width="400">

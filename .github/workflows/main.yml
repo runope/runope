@@ -23,10 +23,10 @@ jobs:
           filename: iso-calender.svg
           token: ${{ secrets.METRICS }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
-          user: AurevoirXavier
+          user: Runope
           template: classic
           base: ""
-          config_timezone: Europe/Kiev
+          config_timezone: China/Shanghai
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
 
@@ -46,10 +46,10 @@ jobs:
           filename: languages.svg
           token: ${{ secrets.METRICS }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
-          user: AurevoirXavier
+          user: Runope
           template: classic
           base: ""
-          config_timezone: Europe/Kiev
+          config_timezone: China/Shanghai
           plugin_languages: yes
 
   stargazers:
@@ -60,10 +60,10 @@ jobs:
           filename: stargazers.svg
           token: ${{ secrets.METRICS }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
-          user: AurevoirXavier
+          user: Runope
           template: classic
           base: ""
-          config_timezone: Europe/Kiev
+          config_timezone: China/Shanghai
           plugin_stargazers: yes
 
   wakatime:
@@ -74,10 +74,10 @@ jobs:
           filename: wakatime.svg
           token: ${{ secrets.METRICS }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
-          user: AurevoirXavier
+          user: Runope
           template: classic
           base: ""
-          config_timezone: Europe/Kiev
+          config_timezone: China/Shanghai
           plugin_wakatime: yes
           plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
           plugin_wakatime_days: 14
@@ -90,10 +90,10 @@ jobs:
           filename: activity.svg
           token: ${{ secrets.METRICS }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
-          user: AurevoirXavier
+          user: Runope
           template: classic
           base: ""
-          config_timezone: Europe/Kiev
+          config_timezone: China/Shanghai
           plugin_activity: yes
           plugin_activity_days: 14
           plugin_activity_filter: push, issue, pr, release, review, wiki, member, comment
@@ -106,7 +106,7 @@ jobs:
           filename: metadata.svg
           token: ${{ secrets.METRICS }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
-          user: AurevoirXavier
+          user: Runope
           template: classic
           base: metadata
-          config_timezone: Europe/Kiev
+          config_timezone: China/Shanghai

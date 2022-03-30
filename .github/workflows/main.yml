@@ -81,6 +81,7 @@ jobs:
           plugin_wakatime: yes
           plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
           plugin_wakatime_days: 14
+          plugin_wakatime_sections: time, projects, projects-graphs, languages, languages-graphs, editors, os
 
   activity:
     runs-on: ubuntu-latest
@@ -110,3 +111,30 @@ jobs:
           template: classic
           base: metadata
           config_timezone: Asia/Shanghai
+  code:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: code.svg
+          # Your GitHub token
+          # The following scopes are required:
+          #  - public_access (default scope)
+          # The following additional scopes may be required:
+          #  - read:org  (for organization related metrics)
+          #  - read:user (for user related data)
+          #  - repo      (optional, if you want to include private repositories
+          token: ${{ secrets.METRICS }}
+
+          # Options
+          user: runope
+          template: classic
+          base: ""
+          config_display: large
+          config_octicon: yes
+          config_timezone: Asia/Shanghai
+          plugin_code: yes
+          plugin_code_days: 5
+          plugin_code_lines: 30
+          plugin_code_load: 400
+          plugin_code_visibility: public

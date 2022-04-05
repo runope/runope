@@ -45,15 +45,15 @@
                                 <path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"/>
                             </svg>
                             <span class="code">4f9bb690</span>
-                            <span class="code">Cargo.toml</span>
-                            <span class="code"><span class="snippet additions">++3</span> <span class="snippet deletions">--2</span></span>
+                            <span class="code">src/solution_sets/s0001_two_sum.rs</span>
+                            <span class="code"><span class="snippet additions">++1</span> <span class="snippet deletions">--4</span></span>
                         </div>
                     </section>
                 </div>
                 <div class="row">
                     <section class="snippet">
                         <div class="body markdown">
-                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -16,5 +16,6 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">rand = "0.8.5"<br /></span><span class="token prefix unchanged">·</span><span class="token line">clap = "3.1.6"<br /></span><span class="token prefix unchanged">·</span><span class="token line">failure = "0.1.8"<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">log = "0.4.16"<br /></span><span class="token prefix deleted">-</span><span class="token line">env_logger = "0.9.0"<br /></span></span>\No newline at end of file<br /><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">tracing = "0.1"<br /></span><span class="token prefix inserted">+</span><span class="token line">tracing-subscriber = "0.3"<br /></span><span class="token prefix inserted">+</span><span class="token line">test-case = "2.0"<br /></span></span>\No newline at end of file</code>
+                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -67,9 +67,6 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line">#[test]<br /></span><span class="token prefix unchanged">·</span><span class="token line">fn test_1() {<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">    assert_eq!(<br /></span><span class="token prefix deleted">-</span><span class="token line">        Solution::two_sum(vec![2, 7, 11, 15], 9),<br /></span><span class="token prefix deleted">-</span><span class="token line">        vec![0, 1]<br /></span><span class="token prefix deleted">-</span><span class="token line">    );<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">    assert_eq!(Solution::two_sum(vec![2, 7, 11, 15], 9), vec![0, 1]);<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">}<br /></span><span class="token prefix unchanged">·</span><span class="token line">}</span></span></code>
                         </div>
                     </section>
                 </div>

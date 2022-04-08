@@ -61,18 +61,18 @@
                         <div class="chart-bars horizontal">
                             <div class="entry">
                                 <span class="name">Unknown Project</span>
-                                <div class="bar" style="width: 31.039999999999996%; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
-                                <span class="value">39%</span>
-                            </div>
-                            <div class="entry">
-                                <span class="name">practice-leetcode</span>
-                                <div class="bar" style="width: 26.12%; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
-                                <span class="value">33%</span>
+                                <div class="bar" style="width: 36.36%; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
+                                <span class="value">45%</span>
                             </div>
                             <div class="entry">
                                 <span class="name">rust-pratice</span>
-                                <div class="bar" style="width: 22.752%; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
-                                <span class="value">28%</span>
+                                <div class="bar" style="width: 22.880000000000003%; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
+                                <span class="value">29%</span>
+                            </div>
+                            <div class="entry">
+                                <span class="name">practice-leetcode</span>
+                                <div class="bar" style="width: 20.672%; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
+                                <span class="value">26%</span>
                             </div>
                             <div class="entry">
                                 <span class="name">server</span>
@@ -91,27 +91,27 @@
                         <div class="chart-bars horizontal">
                             <div class="entry">
                                 <span class="name">Rust</span>
-                                <div class="bar" style="width: 74.888%; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
-                                <span class="value">94%</span>
-                            </div>
-                            <div class="entry">
-                                <span class="name">TOML</span>
-                                <div class="bar" style="width: 3.4000000000000004%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
-                                <span class="value">4%</span>
+                                <div class="bar" style="width: 66.232%; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
+                                <span class="value">83%</span>
                             </div>
                             <div class="entry">
                                 <span class="name">Python</span>
-                                <div class="bar" style="width: 1.6159999999999999%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <div class="bar" style="width: 8.416%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <span class="value">11%</span>
+                            </div>
+                            <div class="entry">
+                                <span class="name">C++</span>
+                                <div class="bar" style="width: 3.504%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <span class="value">4%</span>
+                            </div>
+                            <div class="entry">
+                                <span class="name">TOML</span>
+                                <div class="bar" style="width: 1.776%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 <span class="value">2%</span>
                             </div>
                             <div class="entry">
-                                <span class="name">Markdown</span>
+                                <span class="name">C</span>
                                 <div class="bar" style="width: 0.08%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
-                                <span class="value">0%</span>
-                            </div>
-                            <div class="entry">
-                                <span class="name">Other</span>
-                                <div class="bar" style="width: 0.016%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 <span class="value">0%</span>
                             </div>
                         </div>
